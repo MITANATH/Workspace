@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import { Link } from 'react-router-dom'
+
 import './forms.css'
 import {signInWithEmailAndPassword, sendEmailVerification} from 'firebase/auth'
 import {auth} from './firebase'
@@ -59,7 +59,7 @@ function Login(){
         </form>
         <p>
           Don't have and account? 
-          <Link to='/register'>Create one here</Link>
+          
         </p>
         {message}
       </div>
