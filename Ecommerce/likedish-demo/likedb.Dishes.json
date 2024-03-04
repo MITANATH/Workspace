@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "65dde6cd056d9108d5931da7"
+  },
+  "likeDish": 3,
+  "likedBy": [
+    "",
+    "pronab",
+    "sukhendu"
+  ],
+  "dishId": "dish1",
+  "likes": 2
+}]
